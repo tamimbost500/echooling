@@ -34,8 +34,15 @@
 
     // Ech Hero Video Popup (using Maginify Popup)
     $('.ech-hero-play-video-btn').magnificPopup({
-        type: 'iframe',
-    });
+  type: 'iframe',
+  iframe: {
+    patterns: {
+      youtube: {
+      src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+      },
+    },
+  }
+});
     
 
     // Responsive Mobile Menu
