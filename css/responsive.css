@@ -1,4 +1,4 @@
-/* * Prefixed by https://autoprefixer.github.io * PostCSS: v8.4.14, * Autoprefixer: v10.4.7 * Browsers: last 4 version */
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1920px) {
 
@@ -53,6 +53,12 @@
 	}
 
 	/* End Hero Area */
+    /* Start Services Area */
+    .ech-services-area {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+    /* End Services Area */
 	/* Start About Area */
 	.ech-about-area ul .ech-about-frist-list>.ech-more-about {
 		padding: 14px 16px;
@@ -134,6 +140,12 @@
 	}
 
 	/* End Hero Area */
+    /* Start Services Area */
+    .ech-services-area {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+    /* End Services Area */
 	/* Start About Area */
 	.ech-about-wraper {
 		padding-left: 0px;
@@ -223,6 +235,12 @@
 	}
 
 	/* End Hero Area */
+    /* Start Services Area */
+    .ech-services-area {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+    /* End Services Area */
 	/* Start About Area */
 	.ech-about-wraper {
 		padding-left: 0px;
